@@ -11,8 +11,7 @@ module.exports = {
     const { name, email, password } = req.body;
     if (!name || !email || !password) {
       return res.status(409).send({
-        message: "body can't be empty",
-        error: error.message
+        message: "body can't be empty"
       });
     }
 
