@@ -18,4 +18,3 @@ module.exports = (sequelize, DataTypes) => {
   };
   return post;
 };
-// , foreignKey: "commentsId"
